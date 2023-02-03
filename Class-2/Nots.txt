@@ -1,0 +1,63 @@
+GRID SYSTEM:
+
+CSS:
+100%
+50% 50%
+33.33% 
+25%
+
+
+30 70, 60 40, 20 80
+
+@media (max-width:500px)
+{
+    .col{
+        width:100%
+    }
+}
+
+Bootstrap:
+12
+6 6
+4 4 4
+3 3 3 3
+
+2 10, 4 8, 7 5
+
+
+Mobile View: col-number (max-width:576px)
+col-12
+
+Tablt view : col-sm-number (min-width:576px)
+
+col-sm-6 col-sm-6
+col-sm-4 col-sm-4 col-sm-4 col-sm-4
+
+Medium Screen: col-md-number (min-width:768px)
+
+col-md-6 col-md-6
+
+col-md-3  col-md-3 col-md-3 col-md-3
+
+
+Large Screen : col-lg-number (min-width:992px)
+
+col-lg-4 col-lg-4 col-lg-4 
+
+
+Extra Large Scrren: col-xl-number (min-width:1200px)
+
+col-xl-3 col-xl-3 col-xl-3 col-xl-3 
+
+col-xl-4  col-xl-8
+
+col-xl-2 col-xl-10
+
+------------------------------------
+Mobile : col-number
+
+Table View: col-sm-number
+
+desktopview: col-md-number
+
+desktop: col-lg/xl-number
